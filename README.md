@@ -50,7 +50,6 @@ In diamond proxy solves the issues when you have a big smart contract that doesn
  The Beacon pattern, stores the address of the implementation contract in a separate *beacon* contract. The address of the beacon is stored in the proxy contract using [ERC-1967](https://eips.ethereum.org/EIPS/eip-1967) storage pattern.
 
 
-
 ## Interaction with the code 
 
 ---
@@ -60,8 +59,6 @@ In diamond proxy solves the issues when you have a big smart contract that doesn
 ```shell
 yarn hardhat compile
 ```
-
-`yarn hardhat compile`
 
 ### Tests
 
